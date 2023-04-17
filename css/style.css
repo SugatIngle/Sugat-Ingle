@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background-color: rgb(218, 211, 211);
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    /* height: 62px; */
+    background-color: black;
+}
+
+.navbar a  img{
+    height: 40px;
+}
+
+.navbar .address{
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    margin-right: 33px;
+}
+.navbar .address img{
+    height: 20px;
+}
+
+
+.navbar .searchBar input{
+     width: 522px;
+     margin-right: 8px;
+     height: 43px;
+     padding: 15px;
+     border-radius: 6px;
+}
+
+.navbar .left-bar .dropdown .btn{
+    color: white;
+    height: 41px;
+    font-size: 20px;
+}
+
+.navbar .searchBar img{
+    height: 33px;
+    margin-bottom: 6px;
+    margin-left: 9px;
+}
+
+.navbar .address:hover , .navbar .sign a:hover{
+    /* background-color: green; */
+    border: 1px solid white;
+    border-radius: 7px;
+    transition: all 10s ease;
+}
+
+.navbar .sign , .navbar .order{
+    font-size: 15px;
+    margin-left: 41px;
+}
+
+.navbar .sign a , .navbar .order{
+    color: whitesmoke;   
+    text-decoration: none;
+}
+
+.navbar .cart h5{
+    color: white;
+    margin-top: 4px;
+    font-size: 27px;
+}
+
+/* /* 
+.navbar label i{
+    color:white;
+   position: absolute;
+   right: 8%;
+   margin-top: 12px;
+   cursor:pointer;
+    font-size: 20px;
+    display: none;
+} */
+/* 
+.navbar #check{
+    display: none;
+}  */
+
+section .specials , section .deals {
+margin-left: 120px;
+}
+
+
+section .box{
+    margin-top: 12px;
+    margin-left: 10px;
+    /* border-style : solid ; */
+    /* border-color: black; */
+    background-color: #fff;
+    width: 300px;
+    height: 341px;
+}
+
+section .box h6{
+    padding: 5px;
+    font-size: 18px ;
+    margin-left: 15px;
+}
+
+section .box  .more p
+{
+    color : blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;   
+    font-size: 19px;
+    margin-left: 171px;    
+    margin-top:12px;    
+}
+
+
+
+section .box a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+section .box a img{
+height :67px;
+}
+
+section .box .items a{
+    margin-right: 20px;
+}
+
+section .box .items p{
+    font-size: 15px;
+    color: black;
+    margin-left: 12px;
+}
+
+section .box .sponsered a img{
+    height: 203px;
+    margin-left: 30px ;
+}
+
+section .more p {
+    margin-left: 723px;
+}
+
+section .deals .rectangle
+{
+    background-color: white;
+    height: 410px;
+    margin-left: 23px;
+    margin-top: 10px;
+    width : 1069px
+}
+
+section .deals .rectangle h5{
+    margin: 15px;
+    padding: 15px;
+    font-size: 31px;
+}
+
+section .deals .rectangle .dealItems img
+{
+    
+    height: 259px;
+}
+
+
+
+section .deals .rectangle .dealItems .option1 .objective
+{
+    margin-left: 17px;
+    font-size: 15px;
+    padding: 2px;
+    width: 111px;
+    height: 28px;
+    color: white;
+    background-color: rgb(193, 44, 44);
+}
+
+section .branding 
+{
+    margin-top: 10px;
+}
+
+section .option1 a img{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+section .desc{
+    margin-top: 6px;
+    margin-left: 7px;
+    
+}
+
+section .desc p{
+    color: rgb(134, 7, 7);
+}
+
+
+footer .backToTop .btn{
+    border-radius: 0%;
+    width : 100%;
+    font-size: 19px;
+}
+
+footer .nav-footer{
+    background-color:#232F3E; 
+    height: 400px;
+}
+
+footer .nav-footer .container {
+    margin-left: 175px;
+}
+
+footer .know-us , .help , .contact , .money{
+    margin-right: 108px;
+    margin-top: 35px;
+}
+
+
+footer .nav-footer .container a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family :'Times New Roman', Times, serif;
+}
+
+footer .nav-footer .container p{
+    color: #fff;
+    font-size: 21px;
+
+}
+
+footer .logo img{
+    height: 40px;
+    margin-left: 307px;
+}
+
+ footer .languages{
+    margin-left: 100px;
+    font-size: 25px;
+    background-color: rgb(35, 47, 62);
+}
+footer .languages option ,select{
+    border-radius: 1px solid white ;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    font-size : 10px;
+} 
+
+
+footer .countries
+{
+    margin-top: 20px;
+    margin-left: 482px;   
+}
+
+footer .countries a{
+    text-decoration: none;
+    color: white;
+    margin-right: 45px;
+    font-size: 20px;
+
+}
+
+
+footer .copyRight{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+footer .copyRight a , p{
+    font-size: 18px;
+    margin-right: 56px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+section .rating input{
+display: none;
+}
+
+.rating label{
+    margin-left: 1px;
+    float: centre;
+    transition: all 0.2s ease;
+}
+.rating input:not(:checked) ~ label:hover ,
+.rating input:not(:checked) ~ label:hover  ~ label
+{
+ color: #fd4;
+}
+
+
+input:checked ~label
+{
+    color: #fd4;
+}
+
+
+.buying {
+    transform: translate(-50,-50%);
+}
+
+.popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup .popup-content
+{
+    height: 250px;
+    width: 500px;
+    background-color: #fff;
+}
+
+.popup-content input
+{
+    padding: 8px;
+    margin : 20px auto;
+    display: block;
+}
+
